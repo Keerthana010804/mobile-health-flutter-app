@@ -1,16 +1,58 @@
-# mha1
+# 📱 Mobile Health App (MHA)
 
-A new Flutter project.
+A learning-based Mobile Health Application built using Flutter, designed to understand telemedicine concepts like appointments, health records, and video consultations.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+### 👤 Patient Features
+- Book appointments with doctors
+- View health records
+- Video consultations
+- View prescriptions
 
-A few resources to get you started if this is your first Flutter project:
+### 👨‍⚕️ Doctor Features
+- Manage appointments
+- Conduct video consultations
+- Write digital prescriptions
+- View patient health progress with interactive charts
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 👨‍💼 Admin Features
+- Manage users and appointments
+- View basic system analytics and reports
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🔧 Technical Features
+- Flutter & Dart
+- Firebase
+     - Authentication
+     - Cloud Firestore
+     - Push Notifications
+- WebRTC video calls
+- Razorpay / UPI (Payments - Test mode)
+
+## 📂Project Structure
+```
+lib/
+├── main.dart                 # App entry point
+├── screens/                  # UI screens
+│   ├── login_screen.dart
+│   ├── patient_dashboard.dart
+│   ├── doctor_dashboard.dart
+│   ├── admin_dashboard.dart
+│   └── ...
+├── providers/                # State management
+├── services/                 # Business logic
+└── utils/                    # Helper functions
+```
+
+## 🎯 Purpose of This Project
+
+This project is created for learning and practice, to gain hands-on experience with:
+
+- Flutter app development
+- Firebase integration
+- Role-based user flows
+- Real-world app architecture
+
+## License
+This project is for educational purposes only.
+
